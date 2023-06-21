@@ -1,0 +1,22 @@
+{
+	"dependencies": {
+		"@types/lodash": "^4.14.194",
+		"discord.js": "14.x",
+		"gulp": "^4.0.2",
+		"gulp-typescript": "^6.0.0-alpha.1",
+		"lodash": "^4.17.21",
+		"typescript": "^5.0.4",
+		"uwuifier": "^4.0.5"
+	},
+	"name": "emerald-bot",
+	"version": "1.0.0",
+	"main": "Main.js",
+	"scripts": {
+		"dev": "gulp && node dist/Main.js",
+		"deploy": "gulp && node dist/DeployCommands.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}

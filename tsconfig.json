@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"module": "NodeNext",
+		"moduleResolution": "nodenext",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true
+	},
+	"files": ["src/**/*", "src/*"]
+}
