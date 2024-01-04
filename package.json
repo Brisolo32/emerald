@@ -12,8 +12,8 @@
 	"version": "1.0.0",
 	"main": "Main.js",
 	"scripts": {
-		"dev": "gulp && node dist/Main.js",
-		"deploy": "gulp && node dist/DeployCommands.js"
+		"dev": "bun run src/Main.ts",
+		"deploy": "tsc src/DeployCommands.ts --esModuleInterop --moduleResolution nodenext --module nodenext --outdir dist/ && node dist/DeployCommands.js"
 	},
 	"keywords": [],
 	"author": "",
